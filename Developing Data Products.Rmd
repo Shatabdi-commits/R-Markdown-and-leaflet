@@ -1,8 +1,8 @@
 ---
-title: "My First Leaflet Map"
+title: "Developing Data Products"
 author: "Shatabdi"
-date: ""
-output/: html_document/
+date: "24/10/2021"
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -14,7 +14,6 @@ Create a leaflet map object.
 ```{r cars}
 library(leaflet)
 map <- leaflet() %>% addTiles()
-
 ```
 
 Create a marker with a picture of Benrath Palace and a link to its homepage.
